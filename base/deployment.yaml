@@ -22,7 +22,7 @@ spec:
         tier: front
     spec:
       containers:
-      - image: 484907514740.dkr.ecr.ap-southeast-1.amazonaws.com/vote:prod
+      - image: myominsoe432/vote:latest
         name: vote
         imagePullPolicy: Always
         resources: 
