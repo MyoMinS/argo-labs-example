@@ -22,7 +22,7 @@ spec:
         tier: front
     spec:
       containers:
-      - image: myominsoe432/vote:latest
+      - image: myominsoe432/vote:lastest
         name: vote
         imagePullPolicy: Always
         resources: 
