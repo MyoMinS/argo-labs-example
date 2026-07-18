@@ -3,10 +3,10 @@ kind: Ingress
 metadata:
   name: vote
   annotations:
-    alb.ingress.kubernetes.io/group.name: shared-backend-alb
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
-  ingressClassName: alb
+spec:
+  ingressClassName: traefik
   rules:
     - http:
         paths:
